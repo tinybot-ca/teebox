@@ -13,8 +13,8 @@
 
                     <div id="video-container">
 
-                        <video id="my-video" playsinline controls>
-                            <source id="src_mp4" poster="{{ asset('images/poster.png') }}" src="{{ asset('videos/01 BBGS Williamsburg  TONY INTRO SEQ.mp4') }}" type="video/mp4">
+                        <video id="my-video" poster="{{ asset('images/poster.png') }}" playsinline controls>
+                            <source id="src_mp4" src="{{ asset('videos/01 BBGS Williamsburg  TONY INTRO SEQ.mp4') }}" type="video/mp4">
 
                             <!-- Captions are optional -->
                             {{-- <track kind="captions" label="English captions" src="{{ asset('videos/captions.vtt') }}" srclang="en" default> --}}
